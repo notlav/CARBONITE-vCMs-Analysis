@@ -10,7 +10,7 @@ Analysis code for a project studying how **maturation media** affects the develo
 - **Assay (CARBONITE):** https://pmc.ncbi.nlm.nih.gov/articles/PMC12918877/ — this is the source of the
   assay design and readouts. In short: live Rhod-2 calcium movies give single-cell
   transients, and the same wells are then fixed and immunostained.
-  - Stains: **MYL2** (ventricular marker), **ANP** (NPPA; immaturity/stress marker),
+  - Stains: **MYL2** (ventricular marker), **ANP** (NPPA; atrial marker),
     **cTnT** (CM identity/sarcomeres), **DAPI** (nuclei).
 
 ## Pilot experiment design (20261009 experiments)
@@ -50,6 +50,13 @@ Parent folder: `/Volumes/SaucermanLab/Lavie/Experiments/CARBONITE-vCMs/`
   - Plate 1's `3188/` folder also holds two files from other experiments,
     `Plate1-9426-t55_D03_s1_w1.tif` and `Plate1-10226-t5min_D05_s1_w1.tif`. Exclude them.
 - Never modify or overwrite raw data. Write outputs to a separate folder.
+
+### Known data issues
+
+- **Plate 2, wells C05 and C06 (Feyen, 2 weeks):** hair or debris is visible in the fixed/stained
+  images (C06: bright streak; C05: thin fiber). It may also be in the Rhod-2 movies, where it could
+  distort the whole-field mean intensity. Check these wells' movies before trusting their calcium
+  transients, and flag or mask them in any fixed-image or calcium quantification.
 
 ## Code
 
