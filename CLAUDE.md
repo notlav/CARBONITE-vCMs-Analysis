@@ -57,6 +57,12 @@ Parent folder: `/Volumes/SaucermanLab/Lavie/Experiments/CARBONITE-vCMs/`
   images (C06: bright streak; C05: thin fiber). It may also be in the Rhod-2 movies, where it could
   distort the whole-field mean intensity. Check these wells' movies before trusting their calcium
   transients, and flag or mask them in any fixed-image or calcium quantification.
+- **MYL2 and cTnT display ranges:** the ImageJ ranges saved in the merged stacks set the minimum too
+  high (MYL2 15424-20855 shows only ~0.1-3% of pixels). For the single-channel montages, these two
+  channels use one range pooled over all 32 wells (min = p50, max = p99.9), the same for both plates.
+  ANP and DAPI keep the ImageJ ranges. The 4-channel merged montages use the same ranges with
+  DAPI blue, cTnT green, ANP red, MYL2 magenta (not the cyan/yellow LUTs saved in the stacks).
+  This is for display only; no intensity quantification has been done.
 
 ## Code
 
