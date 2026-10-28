@@ -1,0 +1,17 @@
+well,condition,X_shift,Y_shift,n_stain,n_in_field,n_text_dropped,n_kept,pct_kept,median_core_px,core_frac_med,n_frames,frame_interval_ms
+B02,Maintenance media,-20,115,2416,1781,0,1727,71.5,33.0,0.863,1000,9.8308
+B03,Maintenance media,-18,114,3813,2858,0,2810,73.7,33.0,0.862,1000,9.8298
+B04,Maintenance media,-14,115,3502,2611,0,2560,73.1,32.0,0.857,1000,9.8298
+B05,Maintenance media,-13,113,4324,3835,0,3789,87.6,28.0,0.85,1000,9.8308
+B06,Maintenance media,-9,115,2790,2166,0,2114,75.8,33.0,0.861,1000,9.8298
+B07,Maintenance media,-6,115,4154,3356,0,3311,79.7,28.0,0.851,1000,9.8308
+B08,Maintenance media,-2,115,3194,2719,0,2671,83.6,31.0,0.859,1000,9.8308
+B09,Maintenance media,0,115,2644,2200,0,2157,81.6,30.0,0.853,1000,9.8298
+C02,Feyen maturation media,-21,116,2537,2322,0,2305,90.9,30.0,0.858,1000,9.8308
+C03,Feyen maturation media,-18,117,4562,4065,0,4047,88.7,27.0,0.851,1000,9.8298
+C04,Feyen maturation media,-15,117,1671,1417,0,1402,83.9,39.0,0.867,1000,9.8308
+C05,Feyen maturation media,-11,117,2167,1773,0,1742,80.4,39.0,0.868,1000,9.8298
+C06,Feyen maturation media,-8,118,4192,3018,0,2956,70.5,27.0,0.85,1000,9.8298
+C07,Feyen maturation media,-5,118,4353,3533,0,3501,80.4,28.0,0.852,1000,9.8298
+C08,Feyen maturation media,-3,117,4932,4182,0,4140,83.9,21.0,0.832,1000,9.8308
+C09,Feyen maturation media,-1,118,2575,2318,0,2283,88.7,33.0,0.863,1000,9.8308

@@ -1,0 +1,11 @@
+# macOS metadata
+._*
+.DS_Store
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+
+# Large regenerable calcium-pipeline outputs (figures and summary CSVs are committed)
+Calcium/*/cellpose/*_nuc_mask.tif
+Calcium/*/*.parquet

@@ -1,0 +1,17 @@
+well,condition,X_shift,Y_shift,MI,at_search_edge,stain_file,video_file,plane_residual_px,qc_pass
+B02,Maintenance media,-19,117,0.12755512876715458,False,B02_20261009-Lavi-plate1_s1_w2.tif,Lavi-CARBONITE-plate1-10-02-26_Stream_B02_s1_Texas Red_Low.tif,0.51,True
+B03,Maintenance media,-16,117,0.12237379907836671,False,B03_20261009-Lavi-plate1_s1_w2.tif,Lavi-CARBONITE-plate1-10-02-26_Stream_B03_s1_Texas Red_Low.tif,0.8,True
+B04,Maintenance media,-13,117,0.1473626008789065,False,B04_20261009-Lavi-plate1_s1_w2.tif,Lavi-CARBONITE-plate1-10-02-26_Stream_B04_s1_Texas Red_Low.tif,1.28,True
+B05,Maintenance media,-11,117,0.1278871670554986,False,B05_20261009-Lavi-plate1_s1_w2.tif,Lavi-CARBONITE-plate1-10-02-26_Stream_B05_s1_Texas Red_Low.tif,0.88,True
+B06,Maintenance media,-9,118,0.15096879654455758,False,B06_20261009-Lavi-plate1_s1_w2.tif,Lavi-CARBONITE-plate1-10-02-26_Stream_B06_s1_Texas Red_Low.tif,1.52,True
+B07,Maintenance media,-6,116,0.1607917954837765,False,B07_20261009-Lavi-plate1_s1_w2.tif,Lavi-CARBONITE-plate1-10-02-26_Stream_B07_s1_Texas Red_Low.tif,0.96,True
+B08,Maintenance media,-6,117,0.1440505916419468,False,B08_20261009-Lavi-plate1_s1_w2.tif,Lavi-CARBONITE-plate1-10-02-26_Stream_B08_s1_Texas Red_Low.tif,1.7,True
+B09,Maintenance media,-3,117,0.0678981673995615,False,B09_20261009-Lavi-plate1_s1_w2.tif,Lavi-CARBONITE-plate1-10-02-26_Stream_B09_s1_Texas Red_Low.tif,1.19,True
+C02,Feyen maturation media,-19,119,0.11666438049756235,False,C02_20261009-Lavi-plate1_s1_w2.tif,Lavi-CARBONITE-plate1-10-02-26_Stream_C02_s1_Texas Red_Low.tif,0.51,True
+C03,Feyen maturation media,-17,120,0.11956033466622626,False,C03_20261009-Lavi-plate1_s1_w2.tif,Lavi-CARBONITE-plate1-10-02-26_Stream_C03_s1_Texas Red_Low.tif,1.55,True
+C04,Feyen maturation media,-14,119,0.22422416225577085,False,C04_20261009-Lavi-plate1_s1_w2.tif,Lavi-CARBONITE-plate1-10-02-26_Stream_C04_s1_Texas Red_Low.tif,0.53,True
+C05,Feyen maturation media,-11,119,0.13668678298399223,False,C05_20261009-Lavi-plate1_s1_w2.tif,Lavi-CARBONITE-plate1-10-02-26_Stream_C05_s1_Texas Red_Low.tif,0.88,True
+C06,Feyen maturation media,-10,120,0.1543224153471957,False,C06_20261009-Lavi-plate1_s1_w2.tif,Lavi-CARBONITE-plate1-10-02-26_Stream_C06_s1_Texas Red_Low.tif,1.67,True
+C07,Feyen maturation media,206,-86,0.00890762826215425,True,C07_20261009-Lavi-plate1_s1_w2.tif,Lavi-CARBONITE-plate1-10-02-26_Stream_C07_s1_Texas Red_Low.tif,295.15,False
+C08,Feyen maturation media,-5,120,0.12002760579506719,False,C08_20261009-Lavi-plate1_s1_w2.tif,Lavi-CARBONITE-plate1-10-02-26_Stream_C08_s1_Texas Red_Low.tif,1.62,True
+C09,Feyen maturation media,-1,119,0.11526913408841707,False,C09_20261009-Lavi-plate1_s1_w2.tif,Lavi-CARBONITE-plate1-10-02-26_Stream_C09_s1_Texas Red_Low.tif,1.05,True

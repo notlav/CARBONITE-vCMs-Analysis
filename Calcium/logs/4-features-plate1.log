@@ -1,0 +1,8 @@
+plate1: 34106 nuclei, 15 wells, dt=9.830 ms
+  beating (>=2 transients): 19605/34106 (57%)
+
+Wrote /sfs/gpfs/tardis/project/SaucermanLab/Lavie/Experiments/CARBONITE-vCMs/CARBONITE-vCMs-Analysis/Calcium/plate1/calcium_features.csv
+                        nuclei  beating  beat_rate_hz  amplitude   ttp_ms   d50_ms
+Condition                                                                         
+Feyen maturation media   16970    0.518         0.204      0.049  756.897  108.139
+Maintenance media        17136    0.631         0.204      0.056  653.750  122.873

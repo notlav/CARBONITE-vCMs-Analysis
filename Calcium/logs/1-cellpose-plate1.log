@@ -1,0 +1,37 @@
+  coo = torch.sparse_coo_tensor(pt, torch.ones(pt.shape[1], device=pt.device, dtype=torch.int),
+plate1: segmenting 16 wells on cuda:0 -> /sfs/gpfs/tardis/project/SaucermanLab/Lavie/Experiments/CARBONITE-vCMs/CARBONITE-vCMs-Analysis/Calcium/plate1/cellpose
+  [1/16] B02_20261009-Lavi-plate1_s1_w1.tif -> B02_nuc_mask.tif (2354 nuclei)
+  [2/16] B03_20261009-Lavi-plate1_s1_w1.tif -> B03_nuc_mask.tif (2966 nuclei)
+  [3/16] B04_20261009-Lavi-plate1_s1_w1.tif -> B04_nuc_mask.tif (2686 nuclei)
+  [4/16] B05_20261009-Lavi-plate1_s1_w1.tif -> B05_nuc_mask.tif (2796 nuclei)
+  [5/16] B06_20261009-Lavi-plate1_s1_w1.tif -> B06_nuc_mask.tif (3060 nuclei)
+  [6/16] B07_20261009-Lavi-plate1_s1_w1.tif -> B07_nuc_mask.tif (2303 nuclei)
+  [7/16] B08_20261009-Lavi-plate1_s1_w1.tif -> B08_nuc_mask.tif (2883 nuclei)
+  [8/16] B09_20261009-Lavi-plate1_s1_w1.tif -> B09_nuc_mask.tif (2632 nuclei)
+  [9/16] C02_20261009-Lavi-plate1_s1_w1.tif -> C02_nuc_mask.tif (2207 nuclei)
+  [10/16] C03_20261009-Lavi-plate1_s1_w1.tif -> C03_nuc_mask.tif (3252 nuclei)
+  [11/16] C04_20261009-Lavi-plate1_s1_w1.tif -> C04_nuc_mask.tif (3428 nuclei)
+  [12/16] C05_20261009-Lavi-plate1_s1_w1.tif -> C05_nuc_mask.tif (2795 nuclei)
+  [13/16] C06_20261009-Lavi-plate1_s1_w1.tif -> C06_nuc_mask.tif (3008 nuclei)
+  [14/16] C07_20261009-Lavi-plate1_s1_w1.tif -> C07_nuc_mask.tif (3679 nuclei)
+  [15/16] C08_20261009-Lavi-plate1_s1_w1.tif -> C08_nuc_mask.tif (3554 nuclei)
+  [16/16] C09_20261009-Lavi-plate1_s1_w1.tif -> C09_nuc_mask.tif (2723 nuclei)
+
+Wrote /sfs/gpfs/tardis/project/SaucermanLab/Lavie/Experiments/CARBONITE-vCMs/CARBONITE-vCMs-Analysis/Calcium/plate1/cellpose/segmentation_summary.csv
+well              condition  n_nuclei  median_area_px
+ B02      Maintenance media      2354           381.0
+ B03      Maintenance media      2966           376.0
+ B04      Maintenance media      2686           357.0
+ B05      Maintenance media      2796           387.0
+ B06      Maintenance media      3060           385.5
+ B07      Maintenance media      2303           413.0
+ B08      Maintenance media      2883           380.0
+ B09      Maintenance media      2632           381.0
+ C02 Feyen maturation media      2207           433.0
+ C03 Feyen maturation media      3252           415.0
+ C04 Feyen maturation media      3428           432.0
+ C05 Feyen maturation media      2795           455.0
+ C06 Feyen maturation media      3008           425.0
+ C07 Feyen maturation media      3679           390.0
+ C08 Feyen maturation media      3554           391.5
+ C09 Feyen maturation media      2723           404.0

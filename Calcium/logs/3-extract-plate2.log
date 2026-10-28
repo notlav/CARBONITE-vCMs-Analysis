@@ -1,0 +1,37 @@
+plate2: extracting 16 wells
+  B02: shift=( -20, 115)  stain=2416  in field=1781  kept=1727  (text box dropped 0)  core px median=33  1000 frames @ 101.72 Hz
+  B03: shift=( -18, 114)  stain=3813  in field=2858  kept=2810  (text box dropped 0)  core px median=33  1000 frames @ 101.73 Hz
+  B04: shift=( -14, 115)  stain=3502  in field=2611  kept=2560  (text box dropped 0)  core px median=32  1000 frames @ 101.73 Hz
+  B05: shift=( -13, 113)  stain=4324  in field=3835  kept=3789  (text box dropped 0)  core px median=28  1000 frames @ 101.72 Hz
+  B06: shift=(  -9, 115)  stain=2790  in field=2166  kept=2114  (text box dropped 0)  core px median=33  1000 frames @ 101.73 Hz
+  B07: shift=(  -6, 115)  stain=4154  in field=3356  kept=3311  (text box dropped 0)  core px median=28  1000 frames @ 101.72 Hz
+  B08: shift=(  -2, 115)  stain=3194  in field=2719  kept=2671  (text box dropped 0)  core px median=31  1000 frames @ 101.72 Hz
+  B09: shift=(   0, 115)  stain=2644  in field=2200  kept=2157  (text box dropped 0)  core px median=30  1000 frames @ 101.73 Hz
+  C02: shift=( -21, 116)  stain=2537  in field=2322  kept=2305  (text box dropped 0)  core px median=30  1000 frames @ 101.72 Hz
+  C03: shift=( -18, 117)  stain=4562  in field=4065  kept=4047  (text box dropped 0)  core px median=27  1000 frames @ 101.73 Hz
+  C04: shift=( -15, 117)  stain=1671  in field=1417  kept=1402  (text box dropped 0)  core px median=39  1000 frames @ 101.72 Hz
+  C05: shift=( -11, 117)  stain=2167  in field=1773  kept=1742  (text box dropped 0)  core px median=39  1000 frames @ 101.73 Hz
+  C06: shift=(  -8, 118)  stain=4192  in field=3018  kept=2956  (text box dropped 0)  core px median=27  1000 frames @ 101.73 Hz
+  C07: shift=(  -5, 118)  stain=4353  in field=3533  kept=3501  (text box dropped 0)  core px median=28  1000 frames @ 101.73 Hz
+  C08: shift=(  -3, 117)  stain=4932  in field=4182  kept=4140  (text box dropped 0)  core px median=21  1000 frames @ 101.72 Hz
+  C09: shift=(  -1, 118)  stain=2575  in field=2318  kept=2283  (text box dropped 0)  core px median=33  1000 frames @ 101.72 Hz
+
+Wrote /sfs/gpfs/tardis/project/SaucermanLab/Lavie/Experiments/CARBONITE-vCMs/CARBONITE-vCMs-Analysis/Calcium/plate2/nuclear_traces.parquet  (43515 nuclei)
+Wrote /sfs/gpfs/tardis/project/SaucermanLab/Lavie/Experiments/CARBONITE-vCMs/CARBONITE-vCMs-Analysis/Calcium/plate2/traces_summary.csv
+well              condition  n_stain  n_in_field  n_text_dropped  n_kept  pct_kept  median_core_px  core_frac_med  n_frames  frame_interval_ms
+ B02      Maintenance media     2416        1781               0    1727      71.5            33.0          0.863      1000             9.8308
+ B03      Maintenance media     3813        2858               0    2810      73.7            33.0          0.862      1000             9.8298
+ B04      Maintenance media     3502        2611               0    2560      73.1            32.0          0.857      1000             9.8298
+ B05      Maintenance media     4324        3835               0    3789      87.6            28.0          0.850      1000             9.8308
+ B06      Maintenance media     2790        2166               0    2114      75.8            33.0          0.861      1000             9.8298
+ B07      Maintenance media     4154        3356               0    3311      79.7            28.0          0.851      1000             9.8308
+ B08      Maintenance media     3194        2719               0    2671      83.6            31.0          0.859      1000             9.8308
+ B09      Maintenance media     2644        2200               0    2157      81.6            30.0          0.853      1000             9.8298
+ C02 Feyen maturation media     2537        2322               0    2305      90.9            30.0          0.858      1000             9.8308
+ C03 Feyen maturation media     4562        4065               0    4047      88.7            27.0          0.851      1000             9.8298
+ C04 Feyen maturation media     1671        1417               0    1402      83.9            39.0          0.867      1000             9.8308
+ C05 Feyen maturation media     2167        1773               0    1742      80.4            39.0          0.868      1000             9.8298
+ C06 Feyen maturation media     4192        3018               0    2956      70.5            27.0          0.850      1000             9.8298
+ C07 Feyen maturation media     4353        3533               0    3501      80.4            28.0          0.852      1000             9.8298
+ C08 Feyen maturation media     4932        4182               0    4140      83.9            21.0          0.832      1000             9.8308
+ C09 Feyen maturation media     2575        2318               0    2283      88.7            33.0          0.863      1000             9.8308

@@ -1,0 +1,40 @@
+plate2: aligning 16 wells
+  B02: X_shift= -20  Y_shift= 115  MI=0.0647
+  B03: X_shift= -18  Y_shift= 114  MI=0.2770
+  B04: X_shift= -14  Y_shift= 115  MI=0.2390
+  B05: X_shift= -13  Y_shift= 113  MI=0.1844
+  B06: X_shift=  -9  Y_shift= 115  MI=0.1765
+  B07: X_shift=  -6  Y_shift= 115  MI=0.2466
+  B08: X_shift=  -2  Y_shift= 115  MI=0.1014
+  B09: X_shift=   0  Y_shift= 115  MI=0.0835
+  C02: X_shift= -21  Y_shift= 116  MI=0.2249
+  C03: X_shift= -18  Y_shift= 117  MI=0.3254
+  C04: X_shift= -15  Y_shift= 117  MI=0.2472
+  C05: X_shift= -11  Y_shift= 117  MI=0.1766
+  C06: X_shift=  -8  Y_shift= 118  MI=0.2445
+  C07: X_shift=  -5  Y_shift= 118  MI=0.2237
+  C08: X_shift=  -3  Y_shift= 117  MI=0.1480
+  C09: X_shift=  -1  Y_shift= 118  MI=0.3322
+
+Plate QC (Theil-Sen): X = +3.00*col -26.5   Y = +3.00*row +111.0
+  median residual 1.12px, flagging above 3.0px
+  all 16 wells on the plane
+
+Wrote /sfs/gpfs/tardis/project/SaucermanLab/Lavie/Experiments/CARBONITE-vCMs/CARBONITE-vCMs-Analysis/Calcium/plate2/alignment/alignment_mi.csv
+well              condition  X_shift  Y_shift       MI  at_search_edge  plane_residual_px  qc_pass
+ B02      Maintenance media      -20      115 0.064673           False               1.12     True
+ B03      Maintenance media      -18      114 0.276963           False               0.50     True
+ B04      Maintenance media      -14      115 0.238964           False               1.12     True
+ B05      Maintenance media      -13      113 0.184399           False               1.80     True
+ B06      Maintenance media       -9      115 0.176470           False               1.12     True
+ B07      Maintenance media       -6      115 0.246556           False               1.12     True
+ B08      Maintenance media       -2      115 0.101365           False               1.12     True
+ B09      Maintenance media        0      115 0.083497           False               1.12     True
+ C02 Feyen maturation media      -21      116 0.224910           False               1.12     True
+ C03 Feyen maturation media      -18      117 0.325372           False               0.50     True
+ C04 Feyen maturation media      -15      117 0.247223           False               0.50     True
+ C05 Feyen maturation media      -11      117 0.176611           False               0.50     True
+ C06 Feyen maturation media       -8      118 0.244494           False               1.12     True
+ C07 Feyen maturation media       -5      118 0.223708           False               1.12     True
+ C08 Feyen maturation media       -3      117 0.148031           False               0.50     True
+ C09 Feyen maturation media       -1      118 0.332221           False               1.80     True

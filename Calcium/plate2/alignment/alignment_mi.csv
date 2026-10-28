@@ -1,0 +1,17 @@
+well,condition,X_shift,Y_shift,MI,at_search_edge,stain_file,video_file,plane_residual_px,qc_pass
+B02,Maintenance media,-20,115,0.06467280747722481,False,B02_20261009-Lavi-plate2_s1_w2.tif,Plate2_Stream_B02_s1_Texas Red_Low.tif,1.12,True
+B03,Maintenance media,-18,114,0.2769629551823576,False,B03_20261009-Lavi-plate2_s1_w2.tif,Plate2_Stream_B03_s1_Texas Red_Low.tif,0.5,True
+B04,Maintenance media,-14,115,0.23896441251164163,False,B04_20261009-Lavi-plate2_s1_w2.tif,Plate2_Stream_B04_s1_Texas Red_Low.tif,1.12,True
+B05,Maintenance media,-13,113,0.18439866874668198,False,B05_20261009-Lavi-plate2_s1_w2.tif,Plate2_Stream_B05_s1_Texas Red_Low.tif,1.8,True
+B06,Maintenance media,-9,115,0.17646988226847243,False,B06_20261009-Lavi-plate2_s1_w2.tif,Plate2_Stream_B06_s1_Texas Red_Low.tif,1.12,True
+B07,Maintenance media,-6,115,0.24655633450224662,False,B07_20261009-Lavi-plate2_s1_w2.tif,Plate2_Stream_B07_s1_Texas Red_Low.tif,1.12,True
+B08,Maintenance media,-2,115,0.10136459357125935,False,B08_20261009-Lavi-plate2_s1_w2.tif,Plate2_Stream_B08_s1_Texas Red_Low.tif,1.12,True
+B09,Maintenance media,0,115,0.08349653103993311,False,B09_20261009-Lavi-plate2_s1_w2.tif,Plate2_Stream_B09_s1_Texas Red_Low.tif,1.12,True
+C02,Feyen maturation media,-21,116,0.22491005828844754,False,C02_20261009-Lavi-plate2_s1_w2.tif,Plate2_Stream_C02_s1_Texas Red_Low.tif,1.12,True
+C03,Feyen maturation media,-18,117,0.32537188771322667,False,C03_20261009-Lavi-plate2_s1_w2.tif,Plate2_Stream_C03_s1_Texas Red_Low.tif,0.5,True
+C04,Feyen maturation media,-15,117,0.24722274765017985,False,C04_20261009-Lavi-plate2_s1_w2.tif,Plate2_Stream_C04_s1_Texas Red_Low.tif,0.5,True
+C05,Feyen maturation media,-11,117,0.17661102447014315,False,C05_20261009-Lavi-plate2_s1_w2.tif,Plate2_Stream_C05_s1_Texas Red_Low.tif,0.5,True
+C06,Feyen maturation media,-8,118,0.24449381763620465,False,C06_20261009-Lavi-plate2_s1_w2.tif,Plate2_Stream_C06_s1_Texas Red_Low.tif,1.12,True
+C07,Feyen maturation media,-5,118,0.22370834252765046,False,C07_20261009-Lavi-plate2_s1_w2.tif,Plate2_Stream_C07_s1_Texas Red_Low.tif,1.12,True
+C08,Feyen maturation media,-3,117,0.14803083050002322,False,C08_20261009-Lavi-plate2_s1_w2.tif,Plate2_Stream_C08_s1_Texas Red_Low.tif,0.5,True
+C09,Feyen maturation media,-1,118,0.33222109551929146,False,C09_20261009-Lavi-plate2_s1_w2.tif,Plate2_Stream_C09_s1_Texas Red_Low.tif,1.8,True

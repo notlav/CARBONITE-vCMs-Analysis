@@ -1,0 +1,47 @@
+# 20261009 CARBONITE-vCM maturation pilot (Lavie Ngo)
+#
+# Adapted from the experiment.yaml convention in
+# clark-deep-phenotyping/iPSC-CM/data/*/experiment.yaml (Alex).
+# Holds what the files cannot tell you: where they are, the condition map, and
+# excluded wells. Frame timing (per-frame DateTime tags) and pixel geometry
+# (stain 0.678 um/px at 2048 px; calcium 2.034 um/px at 682 px, 3x3 binning,
+# same 10X Plan Apo objective) come from the files themselves.
+#
+# Raw data are read-only. Every output goes under <repo>/Calcium/<plate>/.
+
+data_root: /sfs/gpfs/tardis/project/SaucermanLab/Lavie/Experiments/CARBONITE-vCMs
+
+plates:
+  plate1:
+    name: "Plate 1: 1 week in assigned media"
+    stain_dir: 20261009-Lavi-plate1/all                                  # <well>_..._s1_w1..w4.tif
+    video_dir: 20261009-Lavi-plate1/Lavi-CARBONITE-plate1-10-02-26/3188
+  plate2:
+    name: "Plate 2: 2 weeks in assigned media"
+    stain_dir: 20261009-Lavi-plate2/all
+    video_dir: 20261009-Lavi-plate2/LN-20261009-CARBONITE-Plate2/3243
+
+# Rhod-2 movies, one per well. This glob gives exactly 16 per plate and skips the
+# two stray *_w1.tif files from other experiments in plate 1's 3188/ folder.
+video_glob: "*_Stream_*_s1_Texas Red_Low.tif"
+
+# Stain channels (fixed plate)
+channels:
+  nuclei: w1      # DAPI  -> cellpose nuclei (calcium ROIs)
+  align: w2       # cTnT  -> registration to the Rhod-2 movie (step 2) and, later, CM filtering
+  anp: w3
+  myl2: w4
+
+# Same layout on both plates.
+conditions_by_row:
+  B: Maintenance media
+  C: Feyen maturation media
+
+# Wells to drop downstream, with the reason. Step 2 flags wells whose alignment
+# lands off the plate plane; whether to exclude is a human decision, made here.
+# Plate 2 C05 / C06 have hair/debris in the fixed images (see CLAUDE.md) -- review
+# their segmentation and alignment overlays before deciding.
+exclude_wells:
+  plate1:
+    C07: "Alignment failed (2026-10-28): Rhod-2 field is a uniform confluent sheet with no features matching the sparse cTnT patches; MI ~0.005-0.01 at every shift for both frame 0 and the movie SD projection; fit off the plate plane by 295 px. Nuclei cannot be placed on the movie."
+  plate2: {}

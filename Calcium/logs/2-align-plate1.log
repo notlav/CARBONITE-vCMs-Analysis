@@ -1,0 +1,41 @@
+plate1: aligning 16 wells
+  B02: X_shift= -19  Y_shift= 117  MI=0.1276
+  B03: X_shift= -16  Y_shift= 117  MI=0.1224
+  B04: X_shift= -13  Y_shift= 117  MI=0.1474
+  B05: X_shift= -11  Y_shift= 117  MI=0.1279
+  B06: X_shift=  -9  Y_shift= 118  MI=0.1510
+  B07: X_shift=  -6  Y_shift= 116  MI=0.1608
+  B08: X_shift=  -6  Y_shift= 117  MI=0.1441
+  B09: X_shift=  -3  Y_shift= 117  MI=0.0679
+  C02: X_shift= -19  Y_shift= 119  MI=0.1167
+  C03: X_shift= -17  Y_shift= 120  MI=0.1196
+  C04: X_shift= -14  Y_shift= 119  MI=0.2242
+  C05: X_shift= -11  Y_shift= 119  MI=0.1367
+  C06: X_shift= -10  Y_shift= 120  MI=0.1543
+  C07: X_shift= 206  Y_shift= -86  MI=0.0089  WARNING: at search edge -- widen COARSE_RANGE
+  C08: X_shift=  -5  Y_shift= 120  MI=0.1200
+  C09: X_shift=  -1  Y_shift= 119  MI=0.1153
+
+Plate QC (Theil-Sen): X = +2.45*col -24.0   Y = +2.00*row +114.5
+  median residual 1.12px, flagging above 3.6px
+  FAIL C07: got( 206, -86) expected(  -6.8, 118.5)  off 295.1px  MI=0.009
+  1 of 16 wells failed -- inspect their overlays; consider excluding them in experiment.yaml
+
+Wrote /sfs/gpfs/tardis/project/SaucermanLab/Lavie/Experiments/CARBONITE-vCMs/CARBONITE-vCMs-Analysis/Calcium/plate1/alignment/alignment_mi.csv
+well              condition  X_shift  Y_shift       MI  at_search_edge  plane_residual_px  qc_pass
+ B02      Maintenance media      -19      117 0.127555           False               0.51     True
+ B03      Maintenance media      -16      117 0.122374           False               0.80     True
+ B04      Maintenance media      -13      117 0.147363           False               1.28     True
+ B05      Maintenance media      -11      117 0.127887           False               0.88     True
+ B06      Maintenance media       -9      118 0.150969           False               1.52     True
+ B07      Maintenance media       -6      116 0.160792           False               0.96     True
+ B08      Maintenance media       -6      117 0.144051           False               1.70     True
+ B09      Maintenance media       -3      117 0.067898           False               1.19     True
+ C02 Feyen maturation media      -19      119 0.116664           False               0.51     True
+ C03 Feyen maturation media      -17      120 0.119560           False               1.55     True
+ C04 Feyen maturation media      -14      119 0.224224           False               0.53     True
+ C05 Feyen maturation media      -11      119 0.136687           False               0.88     True
+ C06 Feyen maturation media      -10      120 0.154322           False               1.67     True
+ C07 Feyen maturation media      206      -86 0.008908            True             295.15    False
+ C08 Feyen maturation media       -5      120 0.120028           False               1.62     True
+ C09 Feyen maturation media       -1      119 0.115269           False               1.05     True
