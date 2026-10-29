@@ -1,0 +1,50 @@
+plate2: classifying 16 wells, ring 6 px, cTnT+ if ratio >= 2.0
+  B02: 2416 nuclei, bg 561, cTnT+ 1245 (51.5%)
+  B03: 3813 nuclei, bg 559, cTnT+ 2288 (60.0%)
+  B04: 3502 nuclei, bg 555, cTnT+ 2279 (65.1%)
+  B05: 4324 nuclei, bg 564, cTnT+ 3211 (74.3%)
+  B06: 2790 nuclei, bg 561, cTnT+ 1474 (52.8%)
+  B07: 4154 nuclei, bg 561, cTnT+ 3026 (72.8%)
+  B08: 3194 nuclei, bg 556, cTnT+ 1906 (59.7%)
+  B09: 2644 nuclei, bg 537, cTnT+ 1569 (59.3%)
+  C02: 2537 nuclei, bg 551, cTnT+ 1647 (64.9%)
+  C03: 4562 nuclei, bg 583, cTnT+ 3626 (79.5%)
+  C04: 1671 nuclei, bg 548, cTnT+ 630 (37.7%)
+  C05: 2167 nuclei, bg 547, cTnT+ 737 (34.0%)
+  C06: 4192 nuclei, bg 562, cTnT+ 3013 (71.9%)
+  C07: 4353 nuclei, bg 563, cTnT+ 3324 (76.4%)
+  C08: 4932 nuclei, bg 564, cTnT+ 3532 (71.6%)
+  C09: 2575 nuclei, bg 557, cTnT+ 1678 (65.2%)
+
+Wrote /Volumes/SaucermanLab/Lavie/Experiments/CARBONITE-vCMs/CARBONITE-vCMs-Analysis/Calcium/plate2/ctnt_classification.csv  (53826 nuclei)
+Wrote /Volumes/SaucermanLab/Lavie/Experiments/CARBONITE-vCMs/CARBONITE-vCMs-Analysis/Calcium/plate2/ctnt_qc/ctnt_summary.csv
+well              condition  n_nuclei  n_ctnt_pos  n_ring_shared  pct_ctnt_pos  background  median_ratio
+ B02      Maintenance media      2416        1245              2          51.5       561.0          2.25
+ B03      Maintenance media      3813        2288              7          60.0       559.0          2.71
+ B04      Maintenance media      3502        2279             12          65.1       555.0          3.25
+ B05      Maintenance media      4324        3211             40          74.3       564.0          3.48
+ B06      Maintenance media      2790        1474              8          52.8       561.0          2.51
+ B07      Maintenance media      4154        3026             16          72.8       561.0          3.29
+ B08      Maintenance media      3194        1906              5          59.7       556.0          2.86
+ B09      Maintenance media      2644        1569              7          59.3       537.0          2.84
+ C02 Feyen maturation media      2537        1647             27          64.9       551.0          4.04
+ C03 Feyen maturation media      4562        3626            133          79.5       583.0          4.32
+ C04 Feyen maturation media      1671         630             23          37.7       548.0          1.05
+ C05 Feyen maturation media      2167         737             29          34.0       547.0          1.03
+ C06 Feyen maturation media      4192        3013            118          71.9       562.0          3.89
+ C07 Feyen maturation media      4353        3324            129          76.4       563.0          4.18
+ C08 Feyen maturation media      4932        3532            186          71.6       564.0          3.52
+ C09 Feyen maturation media      2575        1678             22          65.2       557.0          4.27
+
+log10(ring / background) valleys (KDE local minima):
+   pooled: [1.49]  (n = 96029)
+   plate1: [2.14]  (n = 42524)
+   plate2: [1.45]  (n = 53505)
+
+% cTnT+ by threshold (this run uses 2.0):
+         1.4   1.6   1.8   2.0   2.2   2.5   3.0
+Plate                                           
+plate1  26.5  25.9  25.5  25.2  24.9  24.5  23.7
+plate2  68.6  67.8  66.9  65.8  64.4  61.8  55.5
+
+Wrote /Volumes/SaucermanLab/Lavie/Experiments/CARBONITE-vCMs/CARBONITE-vCMs-Analysis/Calcium/qc/ctnt_threshold.png

@@ -1,0 +1,49 @@
+  excluding C07 per experiment.yaml: Alignment failed (2026-10-28): Rhod-2 field is a uniform confluent sheet with no features matching the sparse cTnT patches; MI ~0.005-0.01 at every shift for both frame 0 and the movie SD projection; fit off the plate plane by 295 px. Nuclei cannot be placed on the movie.
+plate1: classifying 15 wells, ring 6 px, cTnT+ if ratio >= 2.0
+  B02: 2354 nuclei, bg 553, cTnT+ 803 (34.1%)
+  B03: 2966 nuclei, bg 545, cTnT+ 660 (22.3%)
+  B04: 2686 nuclei, bg 556, cTnT+ 1034 (38.5%)
+  B05: 2796 nuclei, bg 542, cTnT+ 474 (17.0%)
+  B06: 3060 nuclei, bg 553, cTnT+ 765 (25.0%)
+  B07: 2303 nuclei, bg 535, cTnT+ 433 (18.8%)
+  B08: 2883 nuclei, bg 537, cTnT+ 857 (29.7%)
+  B09: 2632 nuclei, bg 542, cTnT+ 722 (27.4%)
+  C02: 2207 nuclei, bg 563, cTnT+ 394 (17.9%)
+  C03: 3252 nuclei, bg 572, cTnT+ 910 (28.0%)
+  C04: 3428 nuclei, bg 592, cTnT+ 1156 (33.7%)
+  C05: 2795 nuclei, bg 552, cTnT+ 535 (19.1%)
+  C06: 3008 nuclei, bg 548, cTnT+ 522 (17.4%)
+  C08: 3554 nuclei, bg 558, cTnT+ 794 (22.3%)
+  C09: 2723 nuclei, bg 562, cTnT+ 641 (23.5%)
+
+Wrote /Volumes/SaucermanLab/Lavie/Experiments/CARBONITE-vCMs/CARBONITE-vCMs-Analysis/Calcium/plate1/ctnt_classification.csv  (42647 nuclei)
+Wrote /Volumes/SaucermanLab/Lavie/Experiments/CARBONITE-vCMs/CARBONITE-vCMs-Analysis/Calcium/plate1/ctnt_qc/ctnt_summary.csv
+well              condition  n_nuclei  n_ctnt_pos  n_ring_shared  pct_ctnt_pos  background  median_ratio
+ B02      Maintenance media      2354         803             20          34.1       553.0          1.02
+ B03      Maintenance media      2966         660             17          22.3       545.0          1.00
+ B04      Maintenance media      2686        1034             12          38.5       556.0          1.02
+ B05      Maintenance media      2796         474             11          17.0       542.0          1.01
+ B06      Maintenance media      3060         765             22          25.0       553.0          1.01
+ B07      Maintenance media      2303         433              2          18.8       535.0          1.01
+ B08      Maintenance media      2883         857             13          29.7       537.0          1.02
+ B09      Maintenance media      2632         722             11          27.4       542.0          1.02
+ C02 Feyen maturation media      2207         394             13          17.9       563.0          1.01
+ C03 Feyen maturation media      3252         910             32          28.0       572.0          1.02
+ C04 Feyen maturation media      3428        1156             39          33.7       592.0          1.02
+ C05 Feyen maturation media      2795         535             29          19.1       552.0          1.01
+ C06 Feyen maturation media      3008         522             46          17.4       548.0          1.01
+ C08 Feyen maturation media      3554         794             26          22.3       558.0          1.01
+ C09 Feyen maturation media      2723         641              4          23.5       562.0          1.01
+
+log10(ring / background) valleys (KDE local minima):
+   pooled: [1.49]  (n = 95586)
+   plate1: [2.14]  (n = 42524)
+   plate2: [1.45]  (n = 53062)
+
+% cTnT+ by threshold (this run uses 2.0):
+         1.4   1.6   1.8   2.0   2.2   2.5   3.0
+Plate                                           
+plate1  26.5  25.9  25.5  25.2  24.9  24.5  23.7
+plate2  68.3  67.5  66.6  65.5  64.2  61.5  55.3
+
+Wrote /Volumes/SaucermanLab/Lavie/Experiments/CARBONITE-vCMs/CARBONITE-vCMs-Analysis/Calcium/qc/ctnt_threshold.png

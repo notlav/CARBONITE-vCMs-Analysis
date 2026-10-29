@@ -1,0 +1,17 @@
+well,condition,n_nuclei,n_ctnt_pos,n_ring_shared,pct_ctnt_pos,background,median_ratio
+B02,Maintenance media,2416,1245,2,51.5,561.0,2.25
+B03,Maintenance media,3813,2288,7,60.0,559.0,2.71
+B04,Maintenance media,3502,2279,12,65.1,555.0,3.25
+B05,Maintenance media,4324,3211,40,74.3,564.0,3.48
+B06,Maintenance media,2790,1474,8,52.8,561.0,2.51
+B07,Maintenance media,4154,3026,16,72.8,561.0,3.29
+B08,Maintenance media,3194,1906,5,59.7,556.0,2.86
+B09,Maintenance media,2644,1569,7,59.3,537.0,2.84
+C02,Feyen maturation media,2537,1647,27,64.9,551.0,4.04
+C03,Feyen maturation media,4562,3626,133,79.5,583.0,4.32
+C04,Feyen maturation media,1671,630,23,37.7,548.0,1.05
+C05,Feyen maturation media,2167,737,29,34.0,547.0,1.03
+C06,Feyen maturation media,4192,3013,118,71.9,562.0,3.89
+C07,Feyen maturation media,4353,3324,129,76.4,563.0,4.18
+C08,Feyen maturation media,4932,3532,186,71.6,564.0,3.52
+C09,Feyen maturation media,2575,1678,22,65.2,557.0,4.27
